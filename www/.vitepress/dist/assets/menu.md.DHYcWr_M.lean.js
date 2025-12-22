@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,af as n}from"./chunks/framework.W5ZyBR1w.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"menu.md","filePath":"menu.md"}'),o={name:"menu.md"};function l(i,a,s,c,h,d){return t(),r("div",null,[...a[0]||(a[0]=[n("",5)])])}const f=e(o,[["render",l]]);export{m as __pageData,f as default};
