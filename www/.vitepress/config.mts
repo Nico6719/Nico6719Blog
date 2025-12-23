@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 export default defineConfig({
 
   title: "NicoNotFind",
@@ -69,5 +70,5 @@ export default defineConfig({
   }
 })
 
-import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
+
 
