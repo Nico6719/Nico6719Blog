@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { announcement } from 'vitepress-plugin-announcement'
+import { AnnouncementPlugin } from "vitepress-plugin-announcement";
 
 export default defineConfig({
   title: "NicoNotFind",
@@ -7,7 +7,7 @@ export default defineConfig({
   
   // 添加插件配置
   plugins: [
-    announcement({
+    AnnouncementPlugin({
       // 公告栏标题
       title: '🎉 公告',
       
