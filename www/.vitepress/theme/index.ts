@@ -1,15 +1,15 @@
-// 1. 尝试修改默认主题的导入路径
-import Theme from 'vitepress/theme'
+// 修改导入方式，避免触发 VitePress 内部路径 Bug
+import { Layout } from 'vitepress/theme' 
 import TeekTheme from 'vitepress-theme-teek'
 
-// 暂时先不要引入 style.css，等构建通过了再说
+// 确保这行被注释掉，因为之前确认过包里没这个文件
 // import 'vitepress-theme-teek/style.css'
 
 export default {
-  ...Theme,      // 使用解构直接覆盖
+  // 不再使用 extends DefaultTheme，直接使用 Teek 提供的扩展
   ...TeekTheme,
+  Layout: TeekTheme.Layout || Layout, // 优先使用主题的布局，没有则用默认
   enhanceApp({ app, router, siteData }) {
-    // 如果主题有其他的插件注册，可以在这里写
     TeekTheme.enhanceApp?.({ app, router, siteData })
   }
 }
