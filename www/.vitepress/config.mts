@@ -33,7 +33,6 @@ export default defineConfig({
   }
 })
 
-import { defineConfig } from 'vitepress'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 
 export default defineConfig({
