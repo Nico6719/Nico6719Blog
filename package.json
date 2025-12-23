@@ -3,6 +3,7 @@
     "vitepress": "^v2.0.0-alpha.15",
     "vitepress-plugin-announcement": "^0.1.7",
     "vitepress-plugin-mermaid": "latest",
+    "vitepress-theme-teek": "latest",
     "mermaid": "latest"
   },
   "scripts": {
