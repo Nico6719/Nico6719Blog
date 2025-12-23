@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "vitepress": "^1.6.3",
+    "vitepress": "^1.6.4",
     "vitepress-plugin-announcement": "^0.1.7",
-    "vitepress-plugin-mermaid": "^2.0.17",
-    "vitepress-theme-teek": "^1.5.4",
+    "vitepress-plugin-mermaid": "^2.0.16",
+    "vitepress-theme-teek": "npm:vitepress-theme-teek@^1.5.4",
     "mermaid": "^10.9.0"
   },
   "scripts": {
