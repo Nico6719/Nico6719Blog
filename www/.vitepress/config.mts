@@ -31,10 +31,7 @@ export default defineConfig({
         ],
         footer: [
           message: '闽ICP<a href="https://beiancx.miit.gov.cn/">备2025115232号-1</a>',
-          copyright: 'Copyright © 2025-现在 <a href="https://github.com/Nico6719">By：Nico6719</a>'
-          },
-        ],
-      })
+          copyright: 'Copyright © 2025-现在 <a href="https://github.com/Nico6719">By：Nico6719</a>'  
     ]
     // ↑↑↑↑↑
   }
