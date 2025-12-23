@@ -8,7 +8,7 @@
   },
   "scripts": {
     "docs:dev": "vitepress dev www",
-    "docs:build": "npm install --legacy-peer-deps && ln -sf ./node_modules/vitepress-theme-teek/dist/style.css ./node_modules/vitepress-theme-teek/style.css || true && vitepress build www"
+    "docs:build": "npm install --legacy-peer-deps && ln -sf ./node_modules/vitepress-theme-teek/dist/style.css ./node_modules/vitepress-theme-teek/style.css || true && vitepress build www",
     "docs:preview": "vitepress preview www"
   }
 }
